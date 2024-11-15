@@ -1,0 +1,22 @@
+MERN - MongoDB , Express , React , Node js 
+nodejs --> (C++ prgm + chrome's V8 JS Engine)
+node js is not framework . 
+It is runtime environment for executing JS code .
+
+non-blocking 
+asynchronous nature 
+
+                            Single thread
+                            /            \
+-----------                /              \
+|   node   | --->      Request1        Request2
+-----------              |   
+                    Event Queue
+-----------------------------------------
+|                                        |
+|                another server          |
+|                    /                   |
+|client----->server---->Database         |
+|                    \                   |
+|                File system             |
+|----------------------------------------|
