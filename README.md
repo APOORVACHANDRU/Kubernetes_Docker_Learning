@@ -46,3 +46,7 @@ minikube   Ready    control-plane   23h   v1.31.0   192.168.49.2   <none>       
      $minikube ip
 
 
+
+     feature 2
+
+
