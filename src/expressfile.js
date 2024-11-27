@@ -32,7 +32,7 @@ expressfile.get('/alien/:id',function(req,res){
 
 expressfile.listen(3000 , function(req,res){    // routing - is handling request nd response 
 
-    console.log("Running");
+    console.log("Running server");
 });
 
 
