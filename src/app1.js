@@ -13,5 +13,5 @@ var fs= require('fs')
 // })
 
 fs.unlink('calc1.js',function(err){
-    console.log("file deleted commit 3");      // calc1.js deleted from folder 
+    console.log("file deleted commit 6");      // calc1.js deleted from folder 
 })
