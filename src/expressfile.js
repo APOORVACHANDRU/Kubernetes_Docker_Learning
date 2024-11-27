@@ -8,7 +8,7 @@ expressfile.get('/',function(req,res){
 })
 expressfile.get('/alien',function(req,res){
     const id = req.query.id
-    res.send("Hello Alien, Welcome back!!!"+id);
+    res.send("Hello Alien, Welcome back!!How are you?!"+id);
 })
 
 expressfile.get('/alien/:id',function(req,res){
@@ -19,7 +19,7 @@ expressfile.get('/alien/:id',function(req,res){
     }
     else if(id == 22)
     {
-        res.send("Hi Anusha"+id);
+        res.send("Hi Anusha How are you?"+id);
     }
     else {
         res.send("Invalid user"+id);
