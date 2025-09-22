@@ -45,7 +45,7 @@ function ReactionTest() {
 
 
     const handleChangeColor = () => {
-        console.log("I am color", greenTime);
+        console.log("I am green color", greenTime);
         const clickTime = Date.now();
 
         if (!greenTime) {
